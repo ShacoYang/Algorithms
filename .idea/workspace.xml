@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47080a45-b6be-427e-8b62-a8eaedb350f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LintCode/BinarySearch/lastPositionofTarget.java" afterPath="$PROJECT_DIR$/src/LintCode/BinarySearch/lastPositionofTarget.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LintCode/BinarySearch/classicalBinarySearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +19,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lastPositionofTarget.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lastPositionofTarget.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/lastPositionofTarget.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -28,7 +29,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="classicalBinarySearch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/classicalBinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +60,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/LintCode/BinarySearch/lastPositionofTarget.java" />
+        <option value="$PROJECT_DIR$/src/LintCode/BinarySearch/classicalBinarySearch.java" />
       </list>
     </option>
   </component>
@@ -52,8 +71,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="121" />
-    <option name="y" value="51" />
+    <option name="x" value="267" />
+    <option name="y" value="71" />
     <option name="width" value="1138" />
     <option name="height" value="788" />
   </component>
@@ -511,15 +530,15 @@
       <option name="presentableId" value="Default" />
       <updated>1490909351084</updated>
       <workItem from="1490909354404" duration="75000" />
-      <workItem from="1490909868206" duration="8000" />
+      <workItem from="1490909868206" duration="749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83000" />
+    <option name="totallyTimeSpent" value="824000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="121" y="51" width="1138" height="788" extended-state="0" />
+    <frame x="267" y="71" width="1138" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -576,6 +595,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/classicalBinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding />
         </state>
       </provider>
