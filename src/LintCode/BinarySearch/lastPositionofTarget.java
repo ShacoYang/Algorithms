@@ -27,7 +27,7 @@ public class lastPositionofTarget {
         }
         //end first cause we need to find the last-position
         if (nums[end] == target){
-            return target;
+            return end;
         }
         if (nums[start] == target){
             return  start;
