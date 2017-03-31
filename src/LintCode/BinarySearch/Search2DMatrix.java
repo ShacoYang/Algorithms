@@ -21,6 +21,8 @@ public class Search2DMatrix {
         while (start + 1 < end) {
             //assume one dimension [1,3,5,7,10,11,16....]
             int mid = start + (end - start) / 2;
+            //mid / column --> [*]
+            //mid % column --> [][*]
             int number = matrix[mid / column][mid % column];
             if (number == target) {
                 return true;
