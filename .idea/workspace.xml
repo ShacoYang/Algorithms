@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47080a45-b6be-427e-8b62-a8eaedb350f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LintCode/BinarySearch/searchInsertPosition.java" afterPath="$PROJECT_DIR$/src/LintCode/BinarySearch/searchInsertPosition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LintCode/BinarySearch/bigSortedArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchInsertPosition.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="searchInsertPosition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/searchInsertPosition.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bigSortedArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/bigSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="18" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="29" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -104,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/LintCode/BinarySearch/BinarySearchTemplate.java" />
         <option value="$PROJECT_DIR$/src/LintCode/BinarySearch/Search2DMatrix.java" />
         <option value="$PROJECT_DIR$/src/LintCode/BinarySearch/searchInsertPosition.java" />
+        <option value="$PROJECT_DIR$/src/LintCode/BinarySearch/bigSortedArray.java" />
       </list>
     </option>
   </component>
@@ -114,8 +126,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="413" />
-    <option name="y" value="32" />
+    <option name="x" value="276" />
+    <option name="y" value="23" />
     <option name="width" value="1013" />
     <option name="height" value="788" />
   </component>
@@ -577,15 +589,15 @@
       <workItem from="1490927850167" duration="1727000" />
       <workItem from="1490933665434" duration="1091000" />
       <workItem from="1490991513825" duration="1521000" />
-      <workItem from="1491079184216" duration="990000" />
+      <workItem from="1491079184216" duration="1967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6386000" />
+    <option name="totallyTimeSpent" value="7363000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="413" y="32" width="1013" height="788" extended-state="0" />
+    <frame x="276" y="23" width="1013" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -794,6 +806,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/bigSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="29" selection-end-column="18" />
           <folding />
         </state>
       </provider>
