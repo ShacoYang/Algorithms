@@ -28,7 +28,7 @@ public class searchInsertPosition {
             return end;
         }
         //end < target
-        return A.length; //=== return end + 1
+        return A.length; // === return end + 1
         //target < start --> return start;
     }
 }
