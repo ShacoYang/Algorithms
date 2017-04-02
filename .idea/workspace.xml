@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47080a45-b6be-427e-8b62-a8eaedb350f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LintCode/BinarySearch/bigSortedArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="47080a45-b6be-427e-8b62-a8eaedb350f3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,8 +79,8 @@
       <file leaf-file-name="bigSortedArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/bigSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="18" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="544">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,7 +123,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="276" />
+    <option name="x" value="510" />
     <option name="y" value="23" />
     <option name="width" value="1013" />
     <option name="height" value="788" />
@@ -589,15 +586,15 @@
       <workItem from="1490927850167" duration="1727000" />
       <workItem from="1490933665434" duration="1091000" />
       <workItem from="1490991513825" duration="1521000" />
-      <workItem from="1491079184216" duration="1967000" />
+      <workItem from="1491079184216" duration="2301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7363000" />
+    <option name="totallyTimeSpent" value="7697000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="276" y="23" width="1013" height="788" extended-state="0" />
+    <frame x="510" y="23" width="1013" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -812,8 +809,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/bigSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
