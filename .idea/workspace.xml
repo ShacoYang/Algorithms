@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47080a45-b6be-427e-8b62-a8eaedb350f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LintCode/BinarySearch/sqrt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LintCode/BinarySearch/firstBadVersion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,16 +24,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classicalBinarySearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/classicalBinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -109,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqrt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sqrt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/sqrt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="27" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="21" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firstBadVersion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/firstBadVersion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -149,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/LintCode/BinarySearch/MinRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/LintCode/BinarySearch/SearchinRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/LintCode/BinarySearch/sqrt.java" />
+        <option value="$PROJECT_DIR$/src/LintCode/BinarySearch/firstBadVersion.java" />
       </list>
     </option>
   </component>
@@ -159,8 +160,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="189" />
-    <option name="y" value="93" />
+    <option name="x" value="296" />
+    <option name="y" value="263" />
     <option name="width" value="1013" />
     <option name="height" value="788" />
   </component>
@@ -624,15 +625,15 @@
       <workItem from="1490991513825" duration="1521000" />
       <workItem from="1491079184216" duration="2441000" />
       <workItem from="1491234817111" duration="1081000" />
-      <workItem from="1491257143662" duration="1506000" />
+      <workItem from="1491257143662" duration="2126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10424000" />
+    <option name="totallyTimeSpent" value="11044000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="189" y="93" width="1013" height="788" extended-state="0" />
+    <frame x="296" y="263" width="1013" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -993,6 +994,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="27" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/firstBadVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding />
         </state>
       </provider>
