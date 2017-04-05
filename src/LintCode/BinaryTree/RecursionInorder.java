@@ -24,7 +24,7 @@ public class RecursionInorder {
         }
         //left root right
         traverse(root.left, result);
-        result.add(result.val);
+        result.add(result.value);
         traverse(root.right, result);
     }
 }
