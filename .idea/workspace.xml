@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47080a45-b6be-427e-8b62-a8eaedb350f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LintCode/A/HighFive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LintCode/BinaryTree/BinaryTreeMaximumPathSum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,14 +39,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HighFive.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HighFive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LintCode/A/HighFive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
+            <state relative-caret-position="582">
               <caret line="55" column="22" lean-forward="false" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeMaximumPathSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LintCode/BinaryTree/BinaryTreeMaximumPathSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/LintCode/A/LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/LintCode/A/windowSum.java" />
         <option value="$PROJECT_DIR$/src/LintCode/A/HighFive.java" />
+        <option value="$PROJECT_DIR$/src/LintCode/BinaryTree/BinaryTreeMaximumPathSum.java" />
       </list>
     </option>
   </component>
@@ -102,9 +111,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1543" />
-    <option name="y" value="229" />
-    <option name="width" value="1205" />
+    <option name="x" value="389" />
+    <option name="y" value="47" />
+    <option name="width" value="1369" />
     <option name="height" value="788" />
   </component>
   <component name="ProjectView">
@@ -122,6 +131,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,6 +163,10 @@
               <option name="myItemId" value="LintCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinaryTree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -169,16 +185,9 @@
               <option name="myItemId" value="LintCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -597,15 +606,16 @@
       <workItem from="1491856931333" duration="1740000" />
       <workItem from="1494530738730" duration="45000" />
       <workItem from="1495746109662" duration="1213000" />
-      <workItem from="1495831748710" duration="970000" />
+      <workItem from="1495831748710" duration="1131000" />
+      <workItem from="1507610779679" duration="1781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19988000" />
+    <option name="totallyTimeSpent" value="21930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1543" y="229" width="1205" height="788" extended-state="0" />
+    <frame x="389" y="47" width="1369" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -622,7 +632,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28976783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25847778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -649,13 +659,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/BinarySearchTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LintCode/BinarySearch/firstPositionofTarget.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -997,11 +1000,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LintCode/A/HighFive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
+        <state relative-caret-position="582">
           <caret line="55" column="22" lean-forward="false" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LintCode/BinaryTree/BinaryTreeMaximumPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
