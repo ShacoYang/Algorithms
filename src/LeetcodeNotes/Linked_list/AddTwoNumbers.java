@@ -8,4 +8,32 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 */
-public class 
+public class AddTwoNumbers{
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+      ListNode dummy = new ListNode(0);
+      ListNode p = l1;
+      ListNode q = l2;
+      ListNode curt = dummy;
+
+      int carry = 0;
+
+      while (p != null || q != null) {
+          int x = ( p != null ) ? p.val : 0;
+          int y = ( q != null ) ? q.val : 0;
+          int sum = x + y + carry;
+          carry = sum / 10;
+          curt.next = new ListNode(sum % 10);
+          curt = curt.next;
+          if ( p != null) {
+              p = p.next;
+          } 
+          if ( q != null) {
+              q = q.next;
+          }
+      }
+      if (carry > 0) {
+          curt.next = new ListNode(carry);
+      }
+      return dummy.next;
+    }
+}
